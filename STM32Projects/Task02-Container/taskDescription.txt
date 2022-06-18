@@ -1,0 +1,19 @@
+Part 1:
+Implement vector, that allocates in creation time memory for given number of elements.
+We use RAII so vector should deallocate memory when is destroyed.
+Vector allows to add, remove elements.
+size() method informs how many elements currently store vector
+Do not misslead size() with capacity() that returns maximum number of elements.
+
+Part2:
+
+Implement copy constructor and assignment operator. Syntax:
+Class(const Class& copyFrom)
+Class& operator = (const Class& assignFrom)
+
+Part3:
+
+Implement move constructor and move operator. Syntax:
+Class(Class&& copyFrom)
+Class& operator = (Class&& assignFrom)
+

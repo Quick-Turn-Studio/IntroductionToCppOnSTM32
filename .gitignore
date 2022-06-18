@@ -1,0 +1,7 @@
+*.a
+*.so
+.metadata
+*.o
+*.launch
+Debug/
+

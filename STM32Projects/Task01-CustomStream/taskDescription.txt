@@ -1,0 +1,13 @@
+Implement operators that will save provided data to buffer.
+Flush means sending to output, so in this case to messageSender::send() from messageSender.h
+
+Example usage:
+
+OutputStream myStream;
+int age = 10;
+myStream << "I am " << age << " years old";
+myStream.flush();
+
+Advance syntax
+
+myStream << "I am " << age << " years old" << stream::endl;
