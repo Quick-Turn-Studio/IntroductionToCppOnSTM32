@@ -1,0 +1,3 @@
+Copy you FixedCapacityVector from Task02 to this project.
+Try to apply Rule of 0 or Rule of 5.
+Discuss what structures you can use.
