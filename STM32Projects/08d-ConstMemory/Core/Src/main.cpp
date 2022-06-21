@@ -11,11 +11,11 @@ template<typename T>
 bool compareAddresses(const T* ptr1, const T* ptr2)
 {
     if (ptr1 == ptr2) {
-        stream << "Objects are in same address\n";
+    	messageSender::send("Objects are in same address\n");
         return true;
     }
     else {
-        stream << "Objects are in different addresses\n";
+    	messageSender::send("Objects are in different addresses\n");
         return false;
     }
 }
