@@ -7,7 +7,7 @@ int main()
 {
 	init();
 
-	messageSender::send("Running Task03-Safe-Container project");
+	messageSender::send("Running Task02-Container project");
 
 
 	return 0;
