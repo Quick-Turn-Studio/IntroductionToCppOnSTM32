@@ -10,7 +10,7 @@ int main()
 {
 	init();
 
-	messageSender::send("Running 17-CustomAllocator project");
+	messageSender::send("Running Task04-TemplatedCapacityContainer project");
 
 	std::stringstream stream;
 

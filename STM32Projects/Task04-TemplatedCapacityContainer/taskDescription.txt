@@ -1,3 +1,5 @@
-Copy you FixedCapacityVector from Task02 to this project.
-Try to apply Rule of 0 or Rule of 5.
-Discuss what structures you can use.
+Implement Container where size is provided in template arguments list
+Do we need to allocate dynamic memory?
+
+Example usage:
+auto vector = FixedCapacityVector<float, 16>();
